@@ -105,6 +105,16 @@ var OnlineMarkdown = {
       }
     });
 
+    $('#togglePreviewButton').on('click', function() {
+      if ($('body').hasClass('hide-output')) {
+        $('body').removeClass('hide-output');
+        $(this).text('隐藏');
+      } else {
+        $('body').addClass('hide-output');
+        $(this).text('预览');
+      }
+    });
+
   },
 
   updateOutput: function () {

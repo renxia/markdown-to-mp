@@ -4,7 +4,7 @@
 
 ### 效果图
 
-![dashboard](screenshots/markdown-to-mp.png)
+![dashboard](https://github.com/renxia/markdown-to-mp/blob/master/screenshots/markdown-to-mp.png?raw=true)
 
 ### LICENSE
 
